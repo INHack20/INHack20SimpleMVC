@@ -1,0 +1,30 @@
+## YAML Template.
+---
+Pays:
+  PaysVE:
+    code: VE
+    libelle: República Bolivariana de Venezuela
+    active: 1
+  PaysZW:
+    code: ZW
+    libelle: Zambie
+    active: 0
+Regions:
+  -
+    fk_pays: PaysVE
+    nom: nombre
+    active: 1
+    libelle: test
+    code_region: 5
+  -
+    fk_pays: PaysVE
+    nom: nombre2
+    active: 1
+    libelle: test 2
+    code_region: 52
+  -
+    fk_pays: PaysZW
+    nom: nombre3
+    active: 0
+    libelle: test 3
+    code_region: 60
